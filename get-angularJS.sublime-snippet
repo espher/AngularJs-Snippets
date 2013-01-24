@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$http.get('http://Url').success(successCallback);
+]]></content>
+	<tabTrigger>http.get </tabTrigger>
+	<scope>source.js</scope>
+</snippet>

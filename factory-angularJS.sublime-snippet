@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+myModule.factory('myService', function (\$dep1, \$dep2) {
+  serviceInstance return;
+});
+]]></content>
+	<tabTrigger>factory </tabTrigger>
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+    \$http({
+            method: 'POST|GET|HEAD|', 
+            url: 'URL',
+            data: { "foo":"bar" },
+        }).
+        success(function(data, status, headers, config) {
+            $scope.data = data;
+        }).
+        error(function(data, status, headers, config) {
+            $scope.data = status;
+        });
+]]></content>
+	<tabTrigger>http </tabTrigger>
+	<scope>source.js</scope>
+</snippet>

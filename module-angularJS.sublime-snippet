@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ *  Module
+ *
+ * Description
+ */
+angular.module('', []).
+]]></content>
+	<tabTrigger>module </tabTrigger>
+	<scope>source.js</scope>
+</snippet>

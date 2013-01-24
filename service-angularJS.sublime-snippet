@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+myModule.service('myService', function (\$dep1, \$dep2) {
+
+});
+]]></content>
+	<tabTrigger>service</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
